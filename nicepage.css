@@ -264,7 +264,7 @@ body {
   bottom: 0;
   opacity: 1;
   transition: 0.5s ease-out;
-  clip-path: circle(200% at 50% 200%);
+  clip-path: circle(200% at 50% 100%);
 }
 #loader_global.hide {
   clip-path: circle(0% at 50% 100%);
@@ -22628,6 +22628,7 @@ section.u-dialog-block:not(.u-dialog-open) {
 }
 .iti__country-list::-webkit-scrollbar{
   width: 5px;
+  border-radius: 15px;
   background: #3a4052;
 }
 .iti__country-list::-webkit-scrollbar-thumb{
