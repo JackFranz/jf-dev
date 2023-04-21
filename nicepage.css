@@ -1,6 +1,7 @@
 body {
   cursor: none;
   overflow: hidden;
+	user-select:none;
 }
 .follower {
   width: 18px;
