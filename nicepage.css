@@ -1,10 +1,10 @@
 *{
--webkit-tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: transparent;
 }
 body {
   cursor: none;
   overflow: hidden;
-	user-select:none;
+  user-select:none;
 }
 .follower {
   width: 18px;
@@ -264,7 +264,7 @@ body {
   bottom: 0;
   opacity: 1;
   transition: 0.5s ease-out;
-  clip-path: circle(200% at 50% 100%);
+  clip-path: circle(200% at 50% 200%);
 }
 #loader_global.hide {
   clip-path: circle(0% at 50% 100%);
@@ -22618,12 +22618,21 @@ section.u-dialog-block:not(.u-dialog-open) {
   padding: 0;
   margin: 0 0 0 -1px;
   box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
-  background-color: white;
-  border: 1px solid #ccc;
+  background-color: #292d39;
+  border: 1px solid #3a4052;
+  border-radius: 10px;
   white-space: nowrap;
   max-height: 200px;
   overflow-y: scroll;
   -webkit-overflow-scrolling: touch;
+}
+.iti__country-list::-webkit-scrollbar{
+  width: 5px;
+  background: #3a4052;
+}
+.iti__country-list::-webkit-scrollbar-thumb{
+  border-radius: 15px;
+  background: #2a2f3c;
 }
 .iti__country-list--dropup {
   bottom: 100%;
@@ -22641,7 +22650,7 @@ section.u-dialog-block:not(.u-dialog-open) {
 .iti__divider {
   padding-bottom: 5px;
   margin-bottom: 5px;
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid #3a4052;
 }
 .iti__country {
   padding: 5px 10px;
@@ -44986,8 +44995,7 @@ ol {
 .u-image:not(.u-shading) > .u-container-layout > .u-input,
 .u-input {
   border-color: #b3b3b3;
-  background-color: #ffffff;
-  color: #202020;
+  color: inherit !important;
 }
 .u-overlap.u-overlap-transparent:not(.u-overlap-contrast)
   .u-header
