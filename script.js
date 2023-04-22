@@ -161,3 +161,17 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
+var lang = navigator.language || navigator.userLanguage;
+
+if (lang.indexOf('es') === 0) {
+    window.location.href = './';
+}
+
+if (lang.indexOf('it') === 0) {
+    window.location.href = './it-ITA/';
+}
+
+if (lang.indexOf('en') === 0) {
+    window.location.href = './en-US/';
+}
+window.location.href = './';
