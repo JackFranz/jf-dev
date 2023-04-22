@@ -165,8 +165,6 @@ var lang = navigator.language || navigator.userLanguage;
 
 if (lang.indexOf('es') === 0) {
     window.location.href = './';
-} else{
-  window.location.href = './';
 }
 
 if (lang.indexOf('it') === 0) {
