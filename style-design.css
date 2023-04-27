@@ -262,7 +262,6 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  opacity: 1;
   transition: 0.5s ease-out;
   clip-path: circle(200% at 50% 100%);
 }
